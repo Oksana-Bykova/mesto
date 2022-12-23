@@ -1,9 +1,9 @@
-.profile__section {
+.root__section {
   margin-bottom: 36px;
 }
 
 @media screen and (min-width: 912px) {
-  .profile__section {
+  .root__section {
     margin-bottom: 47.25px;
   }
 }
