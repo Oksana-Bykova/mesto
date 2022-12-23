@@ -1,15 +1,34 @@
 const popupElement = document.querySelector('.popup');
 const popupCloseButtonElement = popupElement.querySelector('.popup__close');
 const popupOpenButtonElement = document.querySelector('.profile__edit-button');
-console.log(popupCloseButtonElement);
+
 
 const openPopup = function() {
   popupElement.classList.add('popup_is-opened');
+  titlePopupElement.value = titleElement.textContent;
+  hobbyPopupElement.value = hobbyElement.textContent;
 } 
 
-const closePopup = function() {
+function closePopup() {
   popupElement.classList.remove('popup_is-opened');
 }
 
 popupOpenButtonElement.addEventListener('click', openPopup);
 popupCloseButtonElement.addEventListener('click', closePopup);
+
+
+let titleElement = document.querySelector('.profile__title');
+let titlePopupElement = document.querySelector('.popup__form-title');
+let hobbyElement = document.querySelector('.profile__hobby');
+let hobbyPopupElement = document.querySelector('.popup__form-hobby');
+
+const formElement = document.querySelector('.popup__form');
+
+function handleFormSubmit (evt) {
+  evt.preventDefault(); 
+  titleElement.textContent = titlePopupElement.value;
+  hobbyElement.textContent = hobbyPopupElement.value;
+  closePopup ();
+}
+
+formElement.addEventListener ('submit', handleFormSubmit);

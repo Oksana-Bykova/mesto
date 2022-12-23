@@ -1,0 +1,12 @@
+.profile__name {
+  max-width: 282px;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (min-width: 912px) {
+  .profile__name {
+    margin: 0; 
+    max-width: 336px;
+  }
+}

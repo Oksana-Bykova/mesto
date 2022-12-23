@@ -1,0 +1,18 @@
+.group__button {
+  min-width: 22px;
+  min-height: 19px;
+  background-image: url(../../../images/Vector.svg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border: 0;
+  background-color: #FFFFFF; 
+}
+
+.group__button_active {
+  background-image: url(../../../images/Union.png);
+}
+
+.group__button:hover {
+  opacity: 0.5;
+}

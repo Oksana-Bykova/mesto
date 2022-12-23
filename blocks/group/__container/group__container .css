@@ -1,0 +1,7 @@
+.group__container {
+  max-height: 79px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

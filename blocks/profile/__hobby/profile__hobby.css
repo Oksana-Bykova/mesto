@@ -1,0 +1,15 @@
+.profile__hobby {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 912px) {
+  .profile__hobby {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: start;
+  }
+}
