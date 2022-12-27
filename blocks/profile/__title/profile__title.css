@@ -3,7 +3,11 @@
   font-size: 27px;
   line-height: 33px;
   text-align: center;
-  margin: 22.25px 0 7px 46px;
+  margin-top: 25.25px;
+  margin-bottom: 7px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 912px) {
@@ -12,5 +16,6 @@
     line-height: 48px;
     text-align: start;
     margin-left: 0;
+    margin-top: 19px;
   }
 }

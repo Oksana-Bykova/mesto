@@ -4,13 +4,13 @@ const popupOpenButtonElement = document.querySelector('.profile__edit-button');
 
 
 const openPopup = function() {
-  popupElement.classList.add('popup_is-opened');
+  popupElement.classList.add('popup_opened');
   titlePopupElement.value = titleElement.textContent;
   hobbyPopupElement.value = hobbyElement.textContent;
 } 
 
 function closePopup() {
-  popupElement.classList.remove('popup_is-opened');
+  popupElement.classList.remove('popup_opened');
 }
 
 popupOpenButtonElement.addEventListener('click', openPopup);
