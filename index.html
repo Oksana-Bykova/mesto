@@ -14,15 +14,15 @@
     <main>
       <section class="profile root__section">
         <div class="profile__container">
-        <img class="profile__image" src="./images/image.jpg" alt="Фотография пользователя в профиле">
-        <div class="profile__info">
-          <div class="profile__name">
-            <h1 class="profile__title">Жак-Ив Кусто</h1>
-            <button class="profile__edit-button" type="button" aria-label="изменить инфлрмацию профиля">
-            </button>
+          <img class="profile__image" src="./images/image.jpg" alt="Фотография пользователя в профиле">
+          <div class="profile__info">
+            <div class="profile__name">
+              <h1 class="profile__title">Жак-Ив Кусто</h1>
+              <button class="profile__edit-button" type="button" aria-label="изменить инфлрмацию профиля">
+              </button>
+            </div>
+            <p class="profile__hobby">Исследователь океана</p>
           </div>
-          <p class="profile__hobby">Исследователь океана</p>
-        </div>
       </div>
         <button class="profile__add-button" type="button" aria-label="добавить новую фотографию"> 
         </button>
@@ -32,42 +32,42 @@
           <li class="group__element">
             <img class="group__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="фото Карачаевска">
             <div class="group__container">
-                <h3 class="group__title">Карачаевск</h3>
+                <h2 class="group__title">Карачаевск</h2>
                 <button class="group__button" type="button" aria-label="поставить отметку  мне нравится"></button>
           </div>
           </li>
           <li class="group__element">
             <img class="group__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="фото горы Эльбрус">
             <div class="group__container">
-                <h3 class="group__title">Гора Эльбрус</h3>
+                <h2 class="group__title">Гора Эльбрус</h2>
                 <button class="group__button" type="button" aria-label="поставить отметку  мне нравится"></button>
             </div>
           </li>
           <li class="group__element">
             <img class="group__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="фото Домбая">
             <div class="group__container">
-                <h3 class="group__title">Домбай</h3>
+                <h2 class="group__title">Домбай</h2>
                 <button class="group__button" type="button" aria-label="поставить отметку  мне нравится"></button>
             </div>
           </li>
           <li class="group__element">
             <img class="group__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="фото горы Эльбрус">
             <div class="group__container"> 
-                <h3 class="group__title">Гора Эльбрус</h3>
+                <h2 class="group__title">Гора Эльбрус</h2>
                 <button class="group__button" type="button" aria-label="поставить отметку  мне нравится"></button>
             </div>
           </li>
           <li class="group__element">
             <img class="group__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="фото Домбая">
             <div class="group__container">
-                <h3 class="group__title">Домбай</h3>
+                <h2 class="group__title">Домбай</h2>
                 <button class="group__button" type="button" aria-label="поставить отметку  мне нравится"></button>
             </div>
           </li>
           <li class="group__element">
             <img class="group__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="фото Карачаево-Черкесии">
             <div class="group__container">
-                <h3 class="group__title">Карачаево-Черкесия</h3>
+                <h2 class="group__title">Карачаево-Черкесия</h2>
                 <button class="group__button" type="button" aria-label="поставить отметку  мне нравится"></button>
             </div>
           </li>
@@ -83,8 +83,8 @@
       <button class="popup__close" type="button" aria-label="закрыть окно редактирования информации профиля"></button>
       <h2 class="popup__title">Редактировать профиль</h2>
       <form class="popup__form" name="popupform">
-        <input type="text" class="popup__input  popup__input_type_name">
-        <input type="text" class="popup__input  popup__input_type_hobby">
+        <input type="text" class="popup__input  popup__input_type_name" name="name">
+        <input type="text" class="popup__input  popup__input_type_hobby" name="hobby">
         <button type="submit" class="popup__button-submit">Сохранить</button>
       </form>
     </div>

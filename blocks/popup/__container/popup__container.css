@@ -1,8 +1,8 @@
 .popup__container {
+  position: relative;
   font-family: 'Inter', 'Arial', 'Helvetica Neue', sans-serif;
   font-style: normal;
   min-width: 282px;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -15,6 +15,5 @@
 @media screen and (min-width: 1280px) {
   .popup__container {
     min-width: 430px;
-    position: relative;
   }
 }

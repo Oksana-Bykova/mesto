@@ -18,9 +18,9 @@ popupCloseButtonElement.addEventListener('click', closePopup);
 
 
 let titleElement = document.querySelector('.profile__title');
-let titlePopupElement = document.querySelector('.popup__form-title');
+let titlePopupElement = document.querySelector('.popup__input_type_name');
 let hobbyElement = document.querySelector('.profile__hobby');
-let hobbyPopupElement = document.querySelector('.popup__form-hobby');
+let hobbyPopupElement = document.querySelector('.popup__input_type_hobby');
 
 const formElement = document.querySelector('.popup__form');
 

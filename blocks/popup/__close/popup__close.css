@@ -10,8 +10,8 @@
   background-position: center center;
   border: 0;
   position: absolute;
-  right: 19px;
-  top: 221px;
+  right: 0;
+  top: -36px;
 }
 
 .popup__close:hover {
