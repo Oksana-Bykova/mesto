@@ -23,7 +23,7 @@
 
 @import url(../blocks/group/__element/group__element.css);
 @import url(../blocks/group/__ul/group__ul.css);
-@import url(../blocks/group/__container/group__container.css);  
+@import url(../blocks/group/__container/group__container.css);
 @import url(../blocks/group/__title/group__title.css);
 @import url(../blocks/group/__button/group__button.css);
 @import url(../blocks/group/__button/_active/group__button_active.css);
