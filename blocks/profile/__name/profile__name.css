@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  position: relative;
+  gap: 10px;
 }
 
 @media screen and (min-width: 912px) {
